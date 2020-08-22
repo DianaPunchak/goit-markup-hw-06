@@ -42,6 +42,48 @@
            <button class="hero-section-button" data-modal-open>Заказать услугу</button>
            <div class="backdrop is-hidden" data-modal>
               <div class="modal">
+                <form class="form">
+                    <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+                       <label class="form-modal">
+                           <span class="user-name">Имя</span>
+                           <input type="text" name="user-name" class="modal-input">
+                           <svg class="icon-modal" width="18" height="18">
+                           <use xlink:href="./img/sprite.svg#icon-man-black"></use>
+                           </svg>
+                      </label>
+                    
+                      <label class="form-modal">
+                          <span class="user-name">Телефон</span>
+                          <input type="tel" name="phone" id="tel" class="modal-input">
+                          <svg class="icon-modal" width="18" height="18">
+                          <use xlink:href="./img/sprite.svg#icon-tel-black"></use>
+                          </svg>
+                      </label>
+                  
+                      <label class="form-modal">
+                           <span class="user-name">Почта</span>
+                           <input type="email" name="mail" class="modal-input">
+                           <svg class="icon-modal" width="18" height="18">
+                           <use xlink:href="./img/sprite.svg#icon-mail-black"></use>
+                           </svg>
+                      </label>
+                    
+                      <label class="form-modal">
+                           <span class="user-name">Комментарий</span>
+                           <textarea name="comment" placeholder="Введите текст" class="comment"></textarea>
+                     </label>
+            
+                      <label class="checkbox-label">
+                           <input type="checkbox" name="policy" class="checkbox">
+                           <span class="checkbox-icon"></span>
+                           <span class="checkbox-title">Соглашаюсь с рассылкой и принимаю 
+                           <a href="" class="checkbox-policy">Условия договора</a>
+                           </span>
+                      </label>
+                    
+                    <button type="submit" class="btn-modal">Отправить</button>
+              
+                    </form>
                   <button class="button-close" data-modal-close>
                      <svg class="btn-close" width="18" height="18">
                           <use xlink:href="./img/sprite.svg#icon-close-black-18dp"></use>
