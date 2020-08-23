@@ -411,7 +411,7 @@ background-size: cover;
   }
   
 
-  .icon-modal:focus{
+  .icon-modal:focus .form-modal{
     fill: #2196F3;
   }
   
