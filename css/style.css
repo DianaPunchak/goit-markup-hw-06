@@ -243,11 +243,10 @@ background-size: cover;
  font-size: 44px;
  line-height: 1.2;
  text-transform: uppercase;
- text-align: center;
 }
 
 .hero-section-button{
- display: inline-block;
+ 
  padding: 10px 32px;
  border-radius: 4px;
  border: none;
@@ -258,7 +257,6 @@ background-size: cover;
  background-color:var(--accent-text-color);
  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  cursor: pointer;
- margin-left: 665px;
 }
 
 .hero-section-button:hover{
@@ -272,6 +270,7 @@ background-size: cover;
 }
 
 .container-hero {
+    text-align: center;
     position: relative;
   }
   
@@ -455,11 +454,10 @@ background-size: cover;
   }
   
   .checkbox-label {
-    position: absolute;
     display: inline-flex;
     align-items: center;
     padding-bottom: 30px;
-    transform: translateX(54px);
+    
   }
   
   .checkbox-title {
