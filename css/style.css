@@ -403,7 +403,7 @@ background-size: cover;
     border: 1px solid #2196F3;;
   }
   
-  .icon-modal {
+  .icon-modal{
     position: absolute;
     top: 32px;
     left: 12px;
@@ -411,7 +411,7 @@ background-size: cover;
   }
   
 
-  .form-modal:focus .icon-modal {
+  .icon-modal:focus{
     fill: #2196F3;;
   }
   
