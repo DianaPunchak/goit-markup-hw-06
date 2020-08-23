@@ -411,8 +411,8 @@ background-size: cover;
   }
   
 
-  .icon-modal:focus .modal-input{
-    fill: #2196F3;;
+  .modal input.modal-input:focus+svg.icon-modal {
+   fill: #2196F3;;
   }
   
   .comment::placeholder {
