@@ -411,8 +411,8 @@ background-size: cover;
   }
   
 
-  .icon-modal:focus {
-    fill: var(--accent-text-color);
+  .form-field:focus .icon-modal {
+    fill: var(--accent-color);
   }
   
   .comment::placeholder {
