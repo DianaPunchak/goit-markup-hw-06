@@ -400,7 +400,7 @@ background-size: cover;
   
   .modal-input:focus,
   .comment:focus{
-    border: 1px solid #2196F3;
+    border: 1px solid #2196F3;;
   }
   
   .icon-modal {
@@ -411,8 +411,8 @@ background-size: cover;
   }
   
 
-  .modal-icon:focus{
-    fill: #2196F3;
+  .form-modal:focus .icon-modal {
+    fill: #2196F3;;
   }
   
   .comment::placeholder {
